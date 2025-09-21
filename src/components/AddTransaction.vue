@@ -13,7 +13,7 @@
             amount: parseFloat(amount.value),
         }
 
-        emit('transactionSubitted', transactionData)
+        emit('transactionSubmitted', transactionData)
 
         text.value = ''
 

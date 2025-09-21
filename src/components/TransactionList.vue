@@ -8,7 +8,7 @@
         }
     })
 
-    const emit = defineEmits(['tansactionDeleted'])
+    const emit = defineEmits(['transactionDeleted'])
 
     const deleteTransaction = (id) => {
         emit('transactionDeleted', id)
